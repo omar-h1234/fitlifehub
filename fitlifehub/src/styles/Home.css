@@ -1,0 +1,133 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.home {
+  text-align: center;
+}
+
+.header, .footer {
+  background-color: #282c34; /* Dark background for header and footer */
+  color: white;
+  padding: 10px 0;
+}
+
+.header a, .footer a {
+  color: #61dafb; /* Light blue color for links */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.header a:hover, .footer a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/public/images/gym.jpg) no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttons button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.buttons .explore {
+  background-color: #007bff;
+  color: white;
+}
+
+.buttons .explore:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.buttons .join {
+  background-color: #28a745;
+  color: white;
+}
+
+.buttons .join:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #fff;
+  margin-top: -50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.feature {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.feature h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+}
+
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

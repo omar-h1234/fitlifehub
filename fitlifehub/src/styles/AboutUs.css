@@ -1,0 +1,86 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.about-us {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-us h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-us-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.about-us-text {
+  flex: 1;
+  max-width: 600px;
+  padding: 20px;
+  text-align: left;
+}
+
+.about-us-text h2 {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.about-us-text p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.about-us-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-us-images img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.about-us-team {
+  margin-top: 40px;
+}
+
+.about-us-team h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.team-member {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 22px;
+  margin: 5px 0;
+}
+
+.team-member p {
+  font-size: 18px;
+  color: #007bff;
+}

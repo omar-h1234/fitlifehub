@@ -1,0 +1,87 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.equipment {
+  text-align: center;
+  padding: 20px;
+}
+
+.equipment h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.equipment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.equipment-form input,
+.equipment-form select,
+.equipment-form button {
+  padding: 10px;
+  margin: 10px 0;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.equipment-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.equipment-form button:hover {
+  background-color: #0056b3;
+}
+
+.equipment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.equipment-item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.equipment-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.equipment-item h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.equipment-item p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.equipment-item .availability {
+  font-size: 14px;
+  color: #28a745;
+}
+
+.equipment-item:hover {
+  transform: translateY(-10px);
+}
